@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+.section__gallery
+{
+    background-color: rgb(255, 233, 47);
+    max-width: 1200px;
+    max-height: 1536px;
+   
+}
+  
+.section__gallery>p
+{
+font-family: 'Raleway', sans-serif;
+font-size: 17px;
+color: rgb(38, 38, 38);
+line-height: 1.588;
+text-align: center;
+}
+.section__gallery>h2
+{
+    font-size: 90px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    line-height: 0.3;
+    text-align: center;
+            
+}
+.info__text .text
+{
+    padding: 105px;
+    margin: 0px 0px -50px 0px;
+}
+.info__text .paragraf
+{
+   max-width: 570px;
+   max-height: 70px;
+   text-align: center;
+   margin: 0 auto;
+  padding-bottom: 50px;
+}
+      
+.section__gallery .block2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px 0px 30px 14px;
+}
+.section__gallery .block1
+{
+   display: flex;
+   margin: 0px 0px 0px 15px;
+}
+.section__gallery .block3
+{
+    display: flex;
+    margin: -25px 0px 0px 15px;
+}
+
+.block1 .heroimg img {
+    max-width: 770px;
+    max-height: 550px;
+}
+.section__gallery .block2 img 
+{
+    max-width: 370px;
+    max-height: 255px;
+}
+.block3 .heroimg img
+{
+    max-width: 570px;
+    max-height: 400px;
+}
+.section__gallery .button
+{
+    
+        background-color: rgb(85, 133, 162);
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+        width: 200px;
+        height: 55px;
+        justify-content: center;
+        align-items: center;
+       display: flex;
+      
+    margin-top: 50px;
+    margin-left: 500px;
+      
+}
+
+.section__gallery .button a 
+{
+   
+        font-size: 20px;
+        font-family: "Raleway";
+        color: rgb(255, 255, 255);
+        line-height: 1.35;
+        text-decoration: none;
+        
+}      

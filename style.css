@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+ 
+
+.blog{
+   background-color: #b07cf7;
+ }
+ .blog__content .content {
+   margin: 0 auto;
+   max-width: 1200px;
+   width: 100%;
+ }
+ .blog  h2 {
+   color: #ffffff;
+   font-family: Raleway;
+   font-size: 90px;
+   font-weight: 700;
+   text-align: center;
+   margin: 0px 0px 50px 0px;
+ }
+
+ .blog  p {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+  max-width: 500px ;
+  margin: 0px 0px 50px 0px;
+ }
+ .blog-dates {
+   display: flex;
+   justify-content: space-around;
+}
+.blog-dates-card{
+  height: 300px;
+  width: 370px;
+  position: relative;
+}
+.blog-dates> .blog-dates-card:nth-of-type(1)
+{
+  background: linear-gradient(  to bottom,
+  rgba(249, 249, 249, 0) 0%,
+  rgba(132, 129, 132, 0.01724439775910369) 58%,
+  rgba(8, 7, 8, 0.7203256302521008) 100%
+),
+url("image/img.png") no-repeat center;
+background-size: cover;
+}
+.blog-dates> .blog-dates-card:nth-of-type(2)
+{
+  background: linear-gradient(  to bottom,
+  rgba(249, 249, 249, 0) 0%,
+  rgba(132, 129, 132, 0.01724439775910369) 58%,
+  rgba(8, 7, 8, 0.7203256302521008) 100%
+),
+url("image/img1.png") no-repeat center;
+background-size: cover;
+}
+.blog-dates> .blog-dates-card:nth-of-type(3)
+{
+  background: linear-gradient(  to bottom,
+  rgba(249, 249, 249, 0) 0%,
+  rgba(132, 129, 132, 0.01724439775910369) 58%,
+  rgba(8, 7, 8, 0.7203256302521008) 100%
+),
+url("image/img2.png") no-repeat center;
+background-size: cover;
+}
+
+
+
+.blog-dates-card-date {
+  background: 5px;
+  background-color: rgba(38, 38, 38, 0.5);
+  line-height: 25px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+padding: 8px;
+position:absolute ;
+top: 30px;
+left: 30px;
+}
+
+.blog-dates-card-date span:nth-child(1){
+  display: block;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+}
+.blog-dates-card-date span:nth-child(2){
+  display: block;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+}
+.blog-dates-card-info p:nth-child(1){
+  
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;}
+
+  .blog-dates-card-info p:nth-child(2){
+  
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;}
+
+    .blog-dates-card-info{
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      text-align: left;
+      
+    }
+    .blog-button {
+      box-shadow: 0 2px 5px rgba(0 0 0 0.5);
+      background-color: #f72b3b;
+      width: 200px;
+      height: 55px;
+      margin: 0 auto;
+     
+    }
+    .blog-button a {
+     margin: 20px 43px;
+     color: #ffffff;
+     font-family: Raleway;
+     font-size: 20px;
+     font-weight: 300;
+     text-transform:none;
+    }

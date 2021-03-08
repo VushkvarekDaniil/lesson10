@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.content_contact{
+    background: url(image/img5.png);
+    background-size: cover;
+    min-height: 865px;
+}
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	min-height: 100vh;
+}
+
+.content__row {
+	max-width: 1200px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.content__block {
+	margin: 20px;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 500px;
+	height: 450px;
+}
+
+.contact-form__elem {
+	background-color: #00C4C488;
+	color: #FFFFFF;
+	font-family: Raleway;
+	font-size: 15px;
+	text-align: left;
+	border: none;
+	height: 50px;
+	outline: none;
+	width: 100%;
+	padding-left: 10px;
+	border-left: 6px solid rgba(0,0,0,0);
+}
+
+.contact-form__elem::placeholder {
+	color: #FFFFFF;
+}
+
+.contact-form__elem:hover,
+.contact-form__elem:focus {
+	background-color: #00C4C4DD;
+	border-left: 6px solid #355B82;
+}
+
+.contact-form__elem:active {
+	border-left: 6px solid #ffffff;
+}
+
+.contact-form__elem.contact-form__elem_message {
+	resize: none;
+	width: 100%;
+	height: 250px;
+}
+
+.contact-info {
+	width: 500px;
+	font-size: 17px;
+	font-family: Raleway;
+}
+
+.contact-info h4 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.contact-info p {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.title {
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 40px;
+	text-align: center;
+}
+
+.title__title {
+	font-size: 90px;
+	font-weight: 700;
+	margin: 10px auto;
+}
+
+.title__desc {
+	font-size: 17px;
+	font-weight: 300;
+	margin: 10px auto;
+	line-height: 30px;
+}
+
+
+.button:hover {
+	opacity: 1.0;
+}
+
+.button:active {
+	opacity: 0.9;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	color: #FFFFFF;
+	max-width: 1200px;
+	align-items: center;
+	height: 90px;
+	margin: 0 auto;
+
+}
+
+.footer__author .text
+{
+	color: red;
+}
+.footer__copyright
+{
+	
+		font-size: 16px;
+		font-family: "Raleway";
+		color: rgb(185, 185, 185);
+		font-weight: 300;
+}
+.footer__logo
+{
+	font-size: 25px;
+	font-family: 'Pacifico', cursive;
+	color: rgb(185, 185, 185);
+	font-weight: 400;
+}
+.footer__author
+{
+	font-size: 15px;
+	font-family: "Raleway";
+	color: rgb(185, 185, 185);
+	line-height: 1.667;
+	font-weight: bold;
+}
+	
+  

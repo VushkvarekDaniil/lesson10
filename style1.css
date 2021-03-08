@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+    @font-face {
+      font-family: 'Myriad Pro Regular';
+      src: url('fonts/MyriadPro-Regular\ \(7\).eot');
+      src: url('fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/MyriadPro-Regular.woff') format('woff'),
+      url('fonts/MyriadPro-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      }
+   
+      li {
+        list-style-type: none;
+    }
+section:not(.hero-img){
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+.menu{
+    display: flex;}
+   
+.menu__item {
+    margin: 5px;
+    color: #262626;
+    font-size: 16px;
+    font-weight: 700;
+    left: 25px;
+    text-transform: uppercase;
+}
+.menu__item:hover {
+    border-top: 3px solid #ff6033;
+
+}
+.hero-img{
+  max-width: 1200px;
+  margin: 0 auto;
+  background: 
+  url("image/img4.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  margin: -270px auto 0 auto;
+  padding: 300px 0 0 30px;
+}
+.hero-img__title{
+    color: #262626;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.hero-img__description {
+    color: #262626;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+
+}
+
+  .about-us 
+ 
+
+
+  {
+    display: flex;
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(0,196,196) 0%, rgb(0,183,183) 32%, rgb(0,173,173) 68%, rgb(0,156,156) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(0,196,196) 0%, rgb(0,183,183) 32%, rgb(0,173,173) 68%, rgb(0,156,156) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(0,196,196) 0%, rgb(0,183,183) 32%, rgb(0,173,173) 68%, rgb(0,156,156) 100%);
+  }
+
+  .about-us__image__image{
+   
+    max-height: 550px;
+    
+    margin: 75px 100px 0px 0px;
+  
+    max-width: 570px;
+  }
+  .text__title {
+  
+    font-size: 90px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 180px 0px -100px 0px;
+ 
+  }
+  .text__description{
+
+        font-size: 17px;
+        font-family: 'Myriad Pro Regular';
+        color: rgb(255, 255, 255);
+        line-height: 1.588;
+        text-align: left;
+        max-width: 490px;
+        max-height: 150px;
+        margin: 33px 165px 255px 0px;
+        
+      }
+
+      }
+        
+.menu__item{
+font-family: "Raleway";
+color: rgb(38, 38, 38);
+font-weight: bold;
+line-height: 1.563;
+}
+.hero-img__title{
+    font-size: 60px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    line-height: 0.417;
+    font-weight: 700;
+    text-transform:capitalize;
+    margin: 150px 0px 35px 0px;
+    display: flex;
+  }
+  .hero-img__subtitle{
+    
+      font-size: 17px;
+      font-family: "Raleway";
+      color: rgb(38, 38, 38);
+      line-height: 21px;
+      font-weight: 300;
+      max-width: 370px; ;
+      max-height: 70px;
+     
+    }
+    
+    .hero-img__button{
+      background-color: rgb(255, 96, 51);
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+      width: 200px;
+      height: 55px;
+      display: flex;
+      align-items: center;
+    }
+    .hero-img__button a {
+    font-family: "Raleway";
+     margin-left: 25px;
+     color: #ffffff;
+     font-family: Raleway;
+     font-size: 20px;
+     text-decoration: none;
+    
+    }
+    .text__description{
+      margin-top: 130px;
+    }
+    .hero-img text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 20px 20px 20px;
+    }
+    
+    
+    
+    
+  
+  
+  
+
+
+
+
+   
+      
+  
